@@ -2,18 +2,14 @@
   max-width: 1000px;
   margin: auto;
 }
-div{
-  border-radius: 2px;
-}
-
 #header{
   background-color: rgb(218, 77, 131);
-  padding: 7px;
-  width: 100%;
+  padding: 10px;
+  width: 990px;
   text-align: center;
-  font-family: Georgia, 'Times New Roman', Times, serif;
+  font-family: 'Cookie', cursive;
   font-weight: bolder;
-  font-size: 25px;
+  font-size: 40px;
   overflow: hidden;
   position: fixed;
   top: 0;
@@ -22,7 +18,7 @@ div{
   padding: 4px;
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
   width: 100%;
-  margin-top: 0;
+  margin-top: 0px;
   position: fixed;
 }
 /* #left{
@@ -41,14 +37,14 @@ div{
 
 #main-container{
   background-color: bisque;
-  margin-top: 60px;
+  margin-top: 105px;
   height: 1000px;
   clear: both;
   
 }
 #content{
   display: inline-block;
-  margin-top: 20px;
+  margin-top: 30px;
   margin-left: 70px;
 }
 
