@@ -1,11 +1,12 @@
 * {
   max-width: 1000px;
+  box-sizing: border-box;
   margin: auto;
 }
 #header{
   background-color: rgb(218, 77, 131);
   padding: 10px;
-  width: 990px;
+  width: 1000px;
   text-align: center;
   font-family: 'Cookie', cursive;
   font-weight: bolder;
@@ -46,16 +47,29 @@
   display: inline-block;
   margin-top: 30px;
   margin-left: 70px;
+  margin-right: 20px;
+  font-size: 17.5px;
 }
-
+h2{
+  text-decoration: underline;
+}
+.bigger{
+  font-size: 22px;
+}
+.info{
+  margin-top: 5px;
+}
+.contact{
+  margin-left: 12px;
+}
 #footer{
   background-image: linear-gradient(to right, red,orange,yellow,green,blue,indigo,violet); 
-  padding: 4px;
+  padding: 4.5px;
   width: 100%;
   position: fixed;
   bottom:0;
   z-index: 1;
-  clear: both;
+  
 }
 
 
